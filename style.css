@@ -100,6 +100,40 @@ position: relative;
 margin-bottom: 40px;
     
 }
+.speakers h1{
+    text-align: center;
+    margin: 50px 0;
+} .speaker-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+} .speaker-card{
+    text-align: left;
+    padding: 20px;
+    border: 1px;solid #ddd;
+    border-radius: 10px;
 
+}
+
+.speaker-card img{
+    width: 100%;
+    border-radius: 6px;
+
+}
+.speaker-card h4{
+ color:#2a86e3 
+
+ 
+}
+.speaker-info{
+    border-bottom: #dcdcdc 1px solid;
+    padding: 20px,0;
+}
+
+.speaker-card p, .speaker-card h4, .speaker-card h3{
+
+    margin: 6px;
+    
+}
 
 
