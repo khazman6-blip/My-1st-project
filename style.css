@@ -136,4 +136,51 @@ margin-bottom: 40px;
     
 }
 
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}.price-card{
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+}.pro{
+    background-color: hsl(213, 5%, 44%);
+}.pricing h1,
+.pricing p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.price-card ul{
+    text-align: left;
+    padding-left: 20px;
+}.price-card button{
+    margin-top: 20px;
+    width: 100%;
+}
+.price-card .team-btn{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.price-card .pro-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.price-card .standard-btn{
+    background-color: transparent;
+    color:#1b70c5;
+    border: 1px solid #1853b3;
+}
+.pro h3{
+    color:#50cbb5
+}
+
+
+
 
